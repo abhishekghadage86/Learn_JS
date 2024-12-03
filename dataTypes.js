@@ -24,3 +24,4 @@ let no//this a undefined datatype
 
 
 console.log(typeof(number))
+console.log(typeof(null)); //object type
