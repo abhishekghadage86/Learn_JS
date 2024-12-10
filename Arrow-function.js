@@ -62,5 +62,4 @@ const addTwo=(num1,num2)=> num1+num2
 
  console.log(firstObj());
  console.log(firstObj1());
-
  
