@@ -35,3 +35,10 @@ no=null ?? 100
 no=undefined ?? 100 ?? 200
 console.log(no);
 
+// Ternary opertaor
+// condtion? true:false;//this is syntax
+
+let number=100;
+number>60?console.log("Number is greater"):console.log("number is not greater");
+;
+
