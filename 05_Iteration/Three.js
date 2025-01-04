@@ -25,7 +25,7 @@ for (const element of map) {
     console.log(element);
 }
 //this map destructuring with help of for of loop
-for (const [key,value] of map) {
+for (const [key,value] of map) {//object can work with the for in loop
     console.log(key +":-"+value);
     
 }
