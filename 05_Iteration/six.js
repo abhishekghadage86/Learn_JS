@@ -65,4 +65,14 @@ userBook=books.filter((bk)=>
     let user=books.filter((bk)=>bk.author)
 //this is print return value==>console.log(user)
 
-  
+let arr1=[];  
+const num=[10,20,30,40,50,60,70,80,90]
+num.forEach((num)=>
+{
+  if(num>20)
+  {
+    arr1.push(num);
+  }
+})
+console.log(arr1)
+
