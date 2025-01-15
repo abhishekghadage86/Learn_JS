@@ -22,3 +22,7 @@ const url="http//:Abhishek/demo%20/javascript"//define url string
 console.log(url.replace('20','-'));//replace the number in  - number or space not allowed in url
 console.log(url.replace('Ab','AB'))
 
+var a="Welcome my House";
+var a=a.split()
+
+console.log(a);
