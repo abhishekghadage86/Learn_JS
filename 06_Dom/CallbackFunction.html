@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function start()
+       {
+          time=setInterval((App) => {
+            let d=new Date();
+            document.write(d);
+            let time=document.getElementById("t").innerHTML=""+d;
+          }, 1000);
+       }
+      
+       function Stop()
+       {
+         clearInterval(time);
+       }
+      
+    </script>
+</head>
+<body >
+    <input type="button" value="btn" onclick="start() ">
+    <input type="button" value="Stop" onclick="Stop()">
+    <h1 id="t"></h1>
+</body>
+</html>

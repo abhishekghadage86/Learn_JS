@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    const xhr = new XMLHttpRequest();
+xhr.open("GET", "https://api.example.com/data", true);
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    console.log(xhr.responseText);
+  }
+};
+xhr.send();
+
+//     let Start = async () =>
+// {
+//     let p=new Promise((resolve,reject)=>
+// {
+//     if(false)
+// {
+//     resolve(" Sucess")
+// }
+// else
+// {
+//     reject("REject")
+// }
+// });
+// p.then((res)=> 
+// {
+//     document.write(res)
+// });
+// p.catch((res)=>
+// {
+//     document.write(res);
+// })
+// }
+
+</script>
+</head>
+<!-- <body onload="Start()"> -->
+    
+</body>
+</html>

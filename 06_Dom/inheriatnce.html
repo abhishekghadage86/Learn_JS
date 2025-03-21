@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class Value
+        {
+            constructor(no)
+            {
+                document.write("I am a constructor"+no)
+            }
+            display()
+            {
+                document.write("I am a Parent")
+            }
+
+        }
+        class Add extends Value
+        {
+            constructor(a)
+            {
+                super(100);
+                document.write("I am add constructor"+a)
+            }
+            display()
+        {
+            document.write("I am Add child class")
+        }
+        
+        }
+        class Mul extends Value
+        {
+            display()
+        {
+            document.write("I am mul child class")
+        }
+    }
+        let obj=new Add(10000000);
+        obj.display();
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

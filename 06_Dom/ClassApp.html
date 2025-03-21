@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class Add
+        {
+            constructor(x,z)
+            {
+                this.x=x;
+                this.z=z;
+                document.write("\n"+this.x+" \t"+this.z);
+                document.write("Object created \n");
+            }
+            setValue(a,b){
+                this.a=a;
+                this.b=b;
+            }
+            display=()=>
+            {
+                document.write("\n"+this.a+" \t"+this.b);
+            
+                // return this.a+this.b;
+                
+            }
+        }
+
+        let obj=new Add(1000,2000);
+        obj.setValue(100,200);
+         let res=obj.display();
+        // document.write("\n result is "+res)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
